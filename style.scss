@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Oswald',sans-serif;
 }
 
 header {
-    border-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 15vh;
-    
+    height: 12vh;
+    margin-top: 2vh;
     h2 {
         font-size: 2.5rem;
         font-weight: 700;
+        margin-left: 10vh;
+        
         
     }
 
@@ -26,18 +28,143 @@ header {
         display: flex;
         justify-content: space-evenly;
         list-style: none;
+        align-items: center;
 
         a {
             text-decoration: none;
             font-size: 1.25rem;
-            color: 5b5b5b;
+            color: #5B5B5B;
             font-weight: 500;
 
-            button{
-                
+            button {
+                background-color: white;
+                color: black;
+                font-size: 1.25rem;
+                height: 7vh;
+                width: 12vw;
+                border: solid;
+                font-weight: bold;
             }
         }
 
-        
+
     }
+}
+
+main {
+
+    .topo {
+        background-image: url("./imagens/1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        div {
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 20vh ;
+            font-size: 50px;
+
+            p{
+                font-size: 30px;
+            }
+
+            button {
+                margin-top: 10vh;
+                background-color: blue;
+                border-color: blue;
+                color: white;
+                height: 10vh;
+                width: 40vh;
+                align-items: center;
+                font-size: 35px;
+            }
+        }
+    }
+
+    .gestao {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        article {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 5vw;
+            
+            h4 {
+                color: blue;
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+    
+            h1 {
+                margin-bottom: 30px;
+                font-weight: bold;
+                font-size: 36px;
+            }
+    
+            p {
+                margin-bottom: 50px;
+                font-size: 24px;
+            }
+        }
+
+        img {
+            margin: 5vw;
+            
+        }
+
+    }
+
+    .solucoes {
+        background-color: lightgrey;
+        text-align: center;
+        height: 100vh;
+        
+        .titulo{
+            color: blue;
+        }
+        figure {
+            display: flex;
+            justify-content: space-evenly;
+
+            .pontos {
+                margin: 10px;                
+                img{
+                    width: 300px;
+                    height: 200px;
+                 }
+                figcaption{
+                    margin-left: 10px;
+                    margin-right: 10px ;
+                    font-size: 20px;
+                    background-color: white;
+                    p{
+                        text-align: justify
+                    }
+                }
+                
+            }
+        }
+    }
+
+    .atendimento {
+
+    }
+}
+
+footer {
+    background-color: #D8D8D8;
+    color: #001C43;
+    font-weight: bold;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
