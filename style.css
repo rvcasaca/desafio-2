@@ -66,7 +66,7 @@ main .topo div p {
 main .topo div button {
   display: flex;
   margin-top: 10vh;
-  background-color: blue;
+  background-color: #0017E9;
   color: white;
   height: 10vh;
   width: 40vh;
@@ -88,7 +88,7 @@ main .gestao article {
   width: 30vw;
 }
 main .gestao article h4 {
-  color: blue;
+  color: #0017E9;
   font-size: 1.5rem;
   text-align: left;
   margin-bottom: 5vh;
@@ -109,52 +109,41 @@ main .gestao img {
 }
 main .solucoes {
   display: flex;
-  background-color: lightgrey;
+  background-color: #D8D8D8;
   align-items: center;
   justify-content: center;
   height: 120vh;
   flex-direction: column;
 }
 main .solucoes h3 {
-  color: blue;
+  color: #0017E9;
+  margin-bottom: 5vh;
 }
-main .solucoes figure {
+main .solucoes h2 {
+  margin-bottom: 10vh;
+}
+main .solucoes .imagens {
+  width: 85vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
-main .solucoes figure img {
-  width: 300px;
-  height: 200px;
-}
-main .solucoes figure .img1 {
-  border: 2px solid red;
-}
-main .solucoes figure .img1 figcaption {
-  font-size: 1rem;
+main .solucoes .imagens div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: #070707;
   background-color: white;
 }
-main .solucoes figure .img1 figcaption p {
-  text-align: justify;
+main .solucoes .imagens div img {
+  width: 25vw;
+  height: 38vh;
 }
-main .solucoes figure .img2 {
-  border: 2px solid blue;
-}
-main .solucoes figure .img2 figcaption {
-  font-size: 1rem;
-  background-color: white;
-}
-main .solucoes figure .img2 figcaption p {
-  text-align: justify;
-}
-main .solucoes figure .img3 {
-  border: 2px solid green;
-}
-main .solucoes figure .img3 figcaption {
-  font-size: 1rem;
-  background-color: white;
-}
-main .solucoes figure .img3 figcaption p {
-  text-align: justify;
+main .solucoes .imagens div figcaption {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 15vh;
+  margin: 1vw;
+  justify-content: center;
 }
 
 .atendimento {
@@ -168,7 +157,7 @@ main .solucoes figure .img3 figcaption p {
   margin-bottom: 2vh;
   margin-left: 3vw;
   font-size: 2.5rem;
-  color: blue;
+  color: #0017E9;
 }
 .atendimento .comercial h3 {
   margin: 5vh;
@@ -207,13 +196,16 @@ main .solucoes figure .img3 figcaption p {
 }
 .atendimento .fale form input {
   width: 32vw;
-  height: 7vh;
+  height: 6vh;
   border: 2px solid black;
   margin-top: 2vh;
 }
+.atendimento .fale form .mensagem {
+  height: 15vh;
+}
 .atendimento .fale form button {
   color: white;
-  background-color: blue;
+  background-color: #0017E9;
   margin: 2vh;
   width: 15vw;
   height: 7.5vh;

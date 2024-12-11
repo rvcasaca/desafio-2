@@ -78,7 +78,7 @@ main {
             button {
                 display: flex;
                 margin-top: 10vh;
-                background-color: blue;
+                background-color: #0017E9;
                 color: white;
                 height: 10vh;
                 width: 40vh;
@@ -104,7 +104,7 @@ main {
 
 
             h4 {
-                color: blue;
+                color: #0017E9;
                 font-size: 1.5rem;
                 text-align: left;
                 margin-bottom: 5vh;
@@ -133,69 +133,48 @@ main {
 
     .solucoes {
         display: flex;
-        background-color: lightgrey;
+        background-color: #D8D8D8;
         align-items: center;
         justify-content: center;
         height: 120vh;
         flex-direction: column;
-
-        h3 {
-            color: blue;
+        h3{
+            color: #0017E9;
+            margin-bottom: 5vh;
         }
 
-        figure {
+        h2{
+            margin-bottom: 10vh;
+            
+        }
+       
+        .imagens{
+            width: 85vw;
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
 
-            img {
-                width: 300px;
-                height: 200px;
-            }
-
-            .img1 {
-                border: 2px solid red;
-
-                figcaption {
-                    
-                    font-size: 1.0rem;
-                    background-color: white;
-
-                    p {
-                        text-align: justify
-                    }
+            div{
+                display: flex;
+                flex-direction: column;
+                box-shadow: #070707;
+                background-color: white;
+                img{
+                    width: 25vw;
+                    height: 38vh;
+                }
+                figcaption{
+                    display: flex;
+                    flex-direction: column;
+                    width: 20vw;
+                    height: 15vh;
+                    margin: 1vw;
+                    justify-content: center ;
                 }
             }
 
-            .img2 {
-                border: 2px solid blue;
-
-                figcaption {
-                    
-                    font-size: 1.0rem;
-                    background-color: white;
-
-                    p {
-                        text-align: justify
-                    }
-                }
-            }
-
-            .img3 {
-                border: 2px solid green;
-
-                figcaption {
-                    font-size: 1.0rem;
-                    background-color: white;
-
-                    p {
-                        text-align: justify
-                    }
-                }
-            }
-
-
-
+            
         }
+        
     }
 }
 
@@ -211,7 +190,7 @@ main {
             margin-bottom: 2vh;
             margin-left: 3vw;
             font-size: 2.5rem;
-            color: blue;
+            color: #0017E9;
         }
 
         h3 {
@@ -264,14 +243,19 @@ main {
 
             input {
                 width: 32vw;
-                height: 7vh;
+                height: 6vh;
                 border: 2px solid black;
                 margin-top: 2vh;
             }
 
+            .mensagem{
+                height: 15vh;
+                
+            }
+
             button {
                 color: white;
-                background-color: blue;
+                background-color: #0017E9;
                 margin: 2vh;
                 width: 15vw;
                 height: 7.5vh;
