@@ -153,7 +153,7 @@ main {
             display: flex;
             justify-content: space-between;
 
-            div{
+            section{
                 display: flex;
                 flex-direction: column;
                 box-shadow: #070707;
@@ -205,7 +205,7 @@ main {
             width: 50vw;
             justify-content: space-evenly;
 
-            div {
+            section {
                 figcaption {
                     margin-bottom: 2vh;
                 }

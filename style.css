@@ -127,17 +127,17 @@ main .solucoes .imagens {
   display: flex;
   justify-content: space-between;
 }
-main .solucoes .imagens div {
+main .solucoes .imagens section {
   display: flex;
   flex-direction: column;
   box-shadow: #070707;
   background-color: white;
 }
-main .solucoes .imagens div img {
+main .solucoes .imagens section img {
   width: 25vw;
   height: 38vh;
 }
-main .solucoes .imagens div figcaption {
+main .solucoes .imagens section figcaption {
   display: flex;
   flex-direction: column;
   width: 20vw;
@@ -170,7 +170,7 @@ main .solucoes .imagens div figcaption {
   width: 50vw;
   justify-content: space-evenly;
 }
-.atendimento .comercial figure div figcaption {
+.atendimento .comercial figure section figcaption {
   margin-bottom: 2vh;
 }
 .atendimento .comercial form {
